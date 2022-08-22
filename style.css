@@ -1,0 +1,98 @@
+body {
+    margin: 0 auto;
+    background-image: url('images/background_img.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 0;
+    font-family: cursive;
+    color: darkred;
+}
+
+.page {
+    display: flex;
+    width: 100vw;
+    height: 75vh;
+}
+
+.main_container {
+    width: 700px;
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+    align-self: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 4px black;
+    border-radius: 5px;
+}
+
+.long_container {
+    height: 100%;
+
+}
+
+.item {
+    height: 100%;
+    float: left;
+    width: 250px;
+}
+
+.see_previous,
+.see_next {
+    height: 100%;
+    width: 50px;
+    position: absolute;
+    left: 0;
+    display: flex;
+    transition: all 0.2s ease-in-out;
+}
+
+.see_next {
+    right: 0;
+    left: auto;
+}
+
+.arrow_previous,
+.arrow_next {
+    width: 100%;
+    align-self: center;
+}
+
+.see_previous:hover,
+.see_next:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#pic1,
+#pic2,
+#pic3,
+#pic4,
+#pic5 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#pic1 {
+    background-image: url("images/cat1.png");
+}
+
+#pic2 {
+    background-image: url("images/cat2.png");
+}
+
+#pic3 {
+    background-image: url("images/cat3.png");
+}
+
+#pic4 {
+    background-image: url("images/cat4.jpg");
+}
+
+#pic5 {
+    background-image: url("images/cat5.jpg");
+}
